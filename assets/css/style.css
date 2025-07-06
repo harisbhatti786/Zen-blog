@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+body {
+ font-family: "EB Garamond", serif;
+}
+:root {
+    --primary-color--:#535353;
+}
+.fs-7 {
+    font-size: 12px;
+}
+.img-fluid {
+    object-fit: cover;
+}
+.img {
+    background-image: url('../images/post-landscape-3.jpg');
+    min-height: 500px;
+
+}
+.carousel-item img {
+    height: 80vh;
+    object-fit: cover;
+}
+.w-45 {
+    width: 45px;
+}
+.text  {
+    color: var(--primary-color--);
+    font-weight: 600;
+   text-decoration-line: none;
+ line-height: 1;
+ 
+}
+.text:hover {
+text-decoration: underline;
+}
+.border-opacity-0 {
+    opacity: 0;
+}
+@media (max-width: 768px) {
+ .border-start {
+    border: none !important;
+  }
+}
+.position-absolute {
+    top: -6px;
+    left: -5px;
+}
+.fs-10 {
+    font-size: 60px;
+    color:  color-mix(in srgb, var(--primary-color--), transparent 95%);;
+    z-index: 1;
+}
+.custom-border {
+    border: 1px solid rgba(0, 0, 0, 0.082);
+}
+.text-color {
+    color: var(--primary-color--);
+}
+.text2 {
+    color: var(--primary-color--);
+
+}
+.border-culture  {
+    border-bottom: 3px solid black;
+}
+#foot {
+    background-color: #060606;
+}
+.footer-icons i {
+font-size: 17px;
+color: white;
+border: 1px solid rgba(255, 255, 255, 0.445);
+border-radius: 100%;
+padding: 12px 14px;
+cursor: pointer;
+transition: all 0.3s ease;
+}
+.footer-icons i:hover {
+    color: rgb(137, 165, 184);
+    border-color: rgb(137, 165, 184) ;
+}
+.txt {
+    color: rgb(175, 169, 169);
+    transition: all 0.3s ease;
+}
+.txt:hover {
+    color: rgb(137, 165, 184);
+       cursor: pointer;
+}
+.postion {
+    position: fixed;
+    right: 10px;
+    bottom:10px;
+}
+.background {
+    padding: 3px 10px;
+    background-color: #465367 ;
+    border-radius: 6px;
+    color: white;
+}
